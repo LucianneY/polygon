@@ -1,0 +1,2 @@
+xenium <- LoadXenium("~/Development/Sample_datasets/Xenium_V1_FF_Mouse_Brain_Coronal/")
+xenium@images$fov$centroids |> as.data.frame()  |> write.csv("Xenium_V1_FF_Mouse_Brain_Coronal_centroids.csv")
